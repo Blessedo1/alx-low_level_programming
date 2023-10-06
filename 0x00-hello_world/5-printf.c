@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main function is the entry point of this program
- * print function prints the formatted text to standard output
+ * main() -  This function is the entry point of this program
+ * printf - Prints the formatted text to standard output
  */
 int main(void)
 {
