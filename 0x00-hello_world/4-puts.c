@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * puts - this prints a string and adds a new line until program ends with 0
- * main - this funtion is the entr point for our function
+ * main - Entry point
+ *
+ * puts - prints a string every new line until program ends with 0
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

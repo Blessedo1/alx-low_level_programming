@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main() -  This function is the entry point of this program
+ * main -  Entry point
+ *
  * printf - Prints the formatted text to standard output
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
