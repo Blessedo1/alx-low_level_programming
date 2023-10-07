@@ -4,6 +4,10 @@
 
 /**
  * main - states whether random number assigned is positive or negative
+ *
+ * printf - prints the positive or negative string
+ *
+ * return - always return 0
  */
 int main(void)
 {
