@@ -7,7 +7,7 @@
  *
  * printf - prints the positive or negative string
  *
- * return - always return 0
+ * return: always return 0
  */
 int main(void)
 {
