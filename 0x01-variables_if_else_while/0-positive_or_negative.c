@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - states whether random number assigned is positive or negative */
+/**
+ * main - states whether random number assigned is positive or negative
+ */
 int main(void)
 {
 	int n;
