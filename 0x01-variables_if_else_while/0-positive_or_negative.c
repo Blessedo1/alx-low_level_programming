@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* This function assigns number to the variable n and ates whether the number is positive or negative each time it is executed */
+/* Function states whether random number assigned is positive or negative */
 int main(void)
 {
 	int n;
