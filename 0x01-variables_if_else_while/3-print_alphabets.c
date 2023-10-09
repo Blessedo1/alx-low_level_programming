@@ -18,6 +18,7 @@ int main(void)
 		putchar(lower[i]);
 		putchar(upper[i]);
 	}
+	putchar('\n');
 
 	return (0);
 }
