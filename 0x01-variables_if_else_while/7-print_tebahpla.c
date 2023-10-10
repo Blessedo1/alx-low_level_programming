@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	char lower[] = "zyxwvutsrqponmlkjihgfedcba";
-	int i = 0;
+	char lower[] = "abcdefghijklmnopqrstuvwxyz";
+	int i = 25;
 
 	while (lower != '\0')
 	{
 		putchar(lower[i]);
-		i++;
+		i--;
 	}
 	putchar('\n');
 
