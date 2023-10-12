@@ -5,7 +5,7 @@
  *
  * _putchar - prints the character
  *
- * Return: always return 0
+ * Return: void
  */
 void print_alphabet(void)
 {
