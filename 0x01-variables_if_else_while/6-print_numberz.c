@@ -3,19 +3,19 @@
 /**
  * main - Entry point
  *
- * printf - prints all single digit base 10 numbers starting from 0
+ * putchar - prints all single digit base 10 numbers starting from 0
  *
  * Return: always return 0
  */
 int main(void)
 {
-        int i;
+	int i;
 
-        for (i = 0; i < 10; i++)
-        {
-                putchar(i);
-        }
-        putchar('\n');
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
