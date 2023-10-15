@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-        char alphabet[] = "abcdfghijklmnoprstuvwxyz";
-        int i = 0;
+	char alphabet[] = "abcdfghijklmnoprstuvwxyz";
+	int i = 0;
 
-        while (alphabet[i] != '\0')
-        {
-                putchar(alphabet[i]);
-                i++;
-        }
-        putchar('\n');
+	while (alphabet[i] != '\0')
+	{
+		putchar(alphabet[i]);
+		i++;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
