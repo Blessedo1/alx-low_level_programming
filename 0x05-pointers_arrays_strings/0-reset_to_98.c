@@ -2,8 +2,7 @@
 
 /**
  * reset_to_98 - updates value of pointer
- *
- * Return: always return 0
+ * *n - operand
  */
 void reset_to_98(int *n)
 {
@@ -11,5 +10,4 @@ void reset_to_98(int *n)
 	{
 		*n = 98;
 	}
-	return;
 }
