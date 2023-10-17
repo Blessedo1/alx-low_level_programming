@@ -2,7 +2,8 @@
 
 /**
  * reset_to_98 - updates value of pointer
- * @*n: operand
+ *
+ * @n: integer pointer
  */
 void reset_to_98(int *n)
 {
