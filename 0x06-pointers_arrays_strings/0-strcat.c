@@ -4,7 +4,6 @@
  * *_strcat - concatenates two strings
  * @*dest: string to be appended to
  * @*src: string to be appended
- *
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
@@ -17,6 +16,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	j = 0;
 	while (src[j] != '\0')
 	{
@@ -25,5 +25,6 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
+
 	return (dest);
 }
