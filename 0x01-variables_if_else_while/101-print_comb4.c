@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * putchar - all possible combinations of three-digit numbers without repitition
+ * putchar - possible combinations of three-digit numbers without repitition
  *
  * Return: always return 0
  */
