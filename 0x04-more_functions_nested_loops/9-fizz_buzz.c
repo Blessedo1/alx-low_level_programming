@@ -2,7 +2,7 @@
 
 /**
  * main - prints 1 to 100 with multiples of 3: Fizz, 5: Buzz, both: FizzBuzz
- * Return - Always return 0
+ * Return: Always return 0
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 		else if (i % 5 == 0)
 			printf("Buzz ");
 		else if (i % 3 == 0 && i % 5 == 0)
-                        printf("FizzBuzz ");
+			printf("FizzBuzz ");
 		else
 			printf("%d ", i);
 	}
