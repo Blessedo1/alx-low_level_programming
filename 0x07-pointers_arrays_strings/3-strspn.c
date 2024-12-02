@@ -10,10 +10,11 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int count = 0;
 	char *reset_accept;
-	int found = 0;
+	int found;
 
 	while (*s)
 	{
+		found = 0;
 		reset_accept = accept;
 
 		while (*reset_accept)
@@ -24,7 +25,7 @@ unsigned int _strspn(char *s, char *accept)
 				found = 1;
 				break;
 			}
-			accept++;
+			reset_accept++;
 		}
 		if (!found)
 			break;
